@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Web3-Project/static/css/main.495870a0.css",
+    "main.js": "/Web3-Project/static/js/main.d5c4c468.js",
+    "index.html": "/Web3-Project/index.html",
+    "main.495870a0.css.map": "/Web3-Project/static/css/main.495870a0.css.map",
+    "main.d5c4c468.js.map": "/Web3-Project/static/js/main.d5c4c468.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.495870a0.css",
+    "static/js/main.d5c4c468.js"
+  ]
+}

@@ -1,0 +1,25 @@
+.cat-color {
+    color: #3498DB;
+}
+
+
+.categories__item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 20px 0px 0px;
+    padding-left: 30px;
+}
+
+.cat__btn {
+    margin-top: 25px;
+}
+
+@media screen and (max-width: 720px) {
+    .categories__item {
+        display: grid;
+        grid-template-columns: 2/1;
+        grid-gap: 1rem;
+        margin-top: -2rem;
+    }
+}

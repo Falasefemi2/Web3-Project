@@ -1,0 +1,12 @@
+.fav__card-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+@media screen and (max-width: 720px) {
+    .fav__card-container {
+        flex-direction: column;
+    }
+}

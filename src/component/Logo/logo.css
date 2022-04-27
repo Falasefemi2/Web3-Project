@@ -1,0 +1,29 @@
+.logo {
+    font-family: var(--font-family);
+    width: 94px;
+    height: 43px;
+    font-weight: 900;
+    font-size: 35px;
+    line-height: 43px;
+    color: var(--logo-color);
+  }
+  
+  span {
+    color: var(--blue-color);
+  }
+
+
+  @media screen and (max-width: 700px) {
+    .logo {
+      display: flex;
+      width: 50px;
+      height: 20px;
+      line-height: 20px;
+      align-items: flex-start;
+      justify-content: flex-start;
+    }
+  }
+  
+  @media screen and (max-width: 550px) {
+
+  }

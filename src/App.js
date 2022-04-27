@@ -1,24 +1,34 @@
-import logo from './logo.svg';
 import './App.css';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Button from './component/Button/Button';
+import Logo from './component/Logo/Logo';
+import Text from './component/Text/Text';
+import Categories from './component/Categories/Categories';
+import FavouriteArtist from './component/FavouriteArtist/FavouriteArtist';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <div className="App">
+        <div className="section__padding">
+          <Routes>
+            <Route  path="/" element={<Logo />} />
+          </Routes>
+          <Routes>
+            <Route path="/" element={<Text />} />
+          </Routes>
+          <Routes>
+            <Route  path="/Categories" element={<Categories />}  />
+          </Routes>
+          <Routes>
+            <Route  path="/FavouriteArtist" element={<FavouriteArtist />}  />
+          </Routes>
+          <Routes>
+          <Route path='/' element={<Button />} />
+          </Routes>
+        </div>
+      </div>
+    </Router>
   );
 }
 
